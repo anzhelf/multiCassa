@@ -1,0 +1,43 @@
+.kod {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin: 10px 0;
+}
+
+.kod__item {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 120%;
+	letter-spacing: -0.02em;
+	text-align: center;
+	color: #d7b27b;
+	border-radius: 10px;
+	max-width: 51px;
+	height: 48px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+
+.kod-container {
+	max-width: 356px;
+	margin: 0 auto;
+}
+
+.kod__description {
+	margin-bottom: 10px;
+}
+
+@media (max-width: 425px) {
+	.kod {
+		gap: 5px;
+	}
+
+	.kod__item {
+		max-width: 40px;
+		height: 39px;
+	}
+}

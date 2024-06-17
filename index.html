@@ -8,65 +8,396 @@
 	</head>
 	<body class="page">
 		<div class="content">
-			<header class="header content-block">
-				<div>
+			<section class="1">
+				<header class="header content-block">
+					<div>
+						<img
+							class="header__logo"
+							src="./images/logo.svg"
+							alt="Логотип Multi Cassa"
+						/>
+						<h1 class="header__title">
+							Владислав,
+							<br />
+							<span class="header__title-hello">добро пожаловать!</span>
+						</h1>
+					</div>
 					<img
-						class="header__logo"
-						src="./images/logo.svg"
-						alt="Логотип Multi Cassa"
+						class="header__image"
+						src="./images/tiger.svg"
+						alt="Иллюстрация тигра"
 					/>
-					<h1 class="header__title">
-						Владислав,
-						<br />
-						<span class="header__title-hello">добро пожаловать!</span>
-					</h1>
-				</div>
-				<img
-					class="header__image"
-					src="./images/tiger.svg"
-					alt="Иллюстрация тигра"
-				/>
-			</header>
-			<main class="main">
-				<article class="main__block content-block">
-					<img class="main__icon" src="./images/heart.svg" alt="" />
-					<h2 class="main__title">Благодарим Вас за регистрацию на сайте!</h2>
-					<p class="main__subtitle">
-						Для подтверждения Вашей почты, пожалуйста, нажмите на кнопку ниже
-						или перейдите по ссылке.
+				</header>
+
+				<main class="main">
+					<article class="main__block content-block main__block_1 main__center">
+						<img class="main__icon" src="./images/heart.svg" alt="" />
+						<h2 class="main__title main__title-block">
+							Благодарим Вас за регистрацию на сайте!
+						</h2>
+						<p class="main__subtitle">
+							Для подтверждения Вашей почты, пожалуйста, нажмите на кнопку ниже
+							или перейдите по ссылке.
+						</p>
+
+						<button class="main__button">ПОДТВЕРДИТЬ EMAIL</button>
+						<p class="main__description">
+							https://multikassa.com/confirm/c71405e63ec9c3b3fd14bfd2481e42f5
+						</p>
+					</article>
+
+					<div class="banner banner_1">
+						<img
+							class="baner__img"
+							src="./images/icon-warning.svg"
+							alt="Иконка предупреждения, восклицательный знак в треугольнике."
+						/>
+						<p class="banner__text">
+							Если это действие было инициировано не Вами, свяжитесь с нами или
+							проигнорируйте данное письмо.
+						</p>
+					</div>
+				</main>
+
+				<footer class="footer">
+					<h3 class="footer__title">2022 © MultiKassa</h3>
+					<p class="footer__subtitle">Cryptocurrency exchange</p>
+					<div class="footer__icons">
+						<img class="footer__icon" src="./images/social/mail.svg" />
+						<img class="footer__icon" src="./images/social/tg.svg" />
+						<img class="footer__icon" src="./images/social/insta.svg" />
+						<img class="footer__icon" src="./images/social/youtube.svg" />
+						<img class="footer__icon" src="./images/social/tt.svg" />
+						<img class="footer__icon" src="./images/social/wt.svg" />
+						<img class="footer__icon" src="./images/social/vk.svg" />
+					</div>
+				</footer>
+			</section>
+
+			<section class="2">
+				<header class="header content-block">
+					<div>
+						<img
+							class="header__logo"
+							src="./images/logo.svg"
+							alt="Логотип Multi Cassa"
+						/>
+						<h1 class="header__title">
+							Владислав,
+							<br />
+							<span class="header__title-hello">забыли пароль?</span>
+						</h1>
+					</div>
+					<img
+						class="header__image"
+						src="./images/tigerT.svg"
+						alt="Иллюстрация тигра"
+					/>
+				</header>
+
+				<main class="main">
+					<h2 class="main__title main__title-2 main__center">
+						Мы получили Ваш запрос <br />на восстановление пароля!
+					</h2>
+					<p class="main__subtitle main__subtitle-min">
+						Для восстановление пароля введите код ниже в форме<br />
+						восстановления или перейдите по ссылке.
 					</p>
 
-					<button class="main__button">ПОДТВЕРДИТЬ EMAIL</button>
-					<p class="main__description">
-						https://multikassa.com/confirm/c71405e63ec9c3b3fd14bfd2481e42f5
-					</p>
-				</article>
+					<article class="main__block content-block main__block_1 main__center">
+						<form class="kod-container">
+							<div class="kod">
+								<input type="text" maxlength="1" class="kod__item" required />
+								<input type="text" maxlength="1" class="kod__item" required />
+								<input type="text" maxlength="1" class="kod__item" required />
+								<input type="text" maxlength="1" class="kod__item" required />
+								<input type="text" maxlength="1" class="kod__item" required />
+								<input type="text" maxlength="1" class="kod__item" required />
+							</div>
+							<button type="submit" class="main__button">
+								СБРОСИТЬ ПАРОЛЬ
+							</button>
+						</form>
+						<p class="main__description kod__description">
+							https://multikassa.com/confirm/c71405e63ec9c3b3fd14bfd2481e42f5
+						</p>
+					</article>
 
-				<div class="banner">
+					<div class="banner banner_1">
+						<img
+							class="baner__img"
+							src="./images/icon-warning.svg"
+							alt="Иконка предупреждения, восклицательный знак в треугольнике."
+						/>
+						<p class="banner__text">
+							Если это действие было инициировано не Вами, свяжитесь с нами или
+							проигнорируйте данное письмо.
+						</p>
+					</div>
+				</main>
+
+				<footer class="footer">
+					<h3 class="footer__title">2022 © MultiKassa</h3>
+					<p class="footer__subtitle">Cryptocurrency exchange</p>
+					<div class="footer__icons">
+						<img class="footer__icon" src="./images/social/mail.svg" />
+						<img class="footer__icon" src="./images/social/tg.svg" />
+						<img class="footer__icon" src="./images/social/insta.svg" />
+						<img class="footer__icon" src="./images/social/youtube.svg" />
+						<img class="footer__icon" src="./images/social/tt.svg" />
+						<img class="footer__icon" src="./images/social/wt.svg" />
+						<img class="footer__icon" src="./images/social/vk.svg" />
+					</div>
+				</footer>
+			</section>
+
+			<section class="3">
+				<header class="header content-block">
+					<div>
+						<img
+							class="header__logo"
+							src="./images/logo.svg"
+							alt="Логотип Multi Cassa"
+						/>
+						<h1 class="header__title">
+							Владислав,
+							<br />
+							<span class="header__title-hello">с возвращением! </span>
+						</h1>
+					</div>
 					<img
-						class="baner__img"
-						src="./images/icon-warning.svg"
-						alt="Иконка предупреждения, восклицательный знак в треугольнике."
+						class="header__image"
+						src="./images/tiger.svg"
+						alt="Иллюстрация тигра"
 					/>
-					<p class="banner__text">
-						Если это действие было инициировано не Вами, свяжитесь с нами или
-						проигнорируйте данное письмо.
-					</p>
-				</div>
-			</main>
-			<footer class="footer">
-				<h3 class="footer__title">2022 © MultiKassa</h3>
-				<p class="footer__subtitle">Cryptocurrency exchange</p>
-				<div class="footer__icons">
-					<img class="footer__icon" src="./images/social/mail.svg" />
-					<img class="footer__icon" src="./images/social/tg.svg" />
-					<img class="footer__icon" src="./images/social/insta.svg" />
-					<img class="footer__icon" src="./images/social/youtube.svg" />
-					<img class="footer__icon" src="./images/social/tt.svg" />
-					<img class="footer__icon" src="./images/social/wt.svg" />
-					<img class="footer__icon" src="./images/social/vk.svg" />
-				</div>
-			</footer>
+				</header>
+
+				<main class="main">
+					<h2 class="main__title main__title-text main__center">
+						Доступ к Вашему аккаунту был
+						<br /><span class="main__title_select">успешно восстановлен!</span>
+					</h2>
+
+					<div class="banner banner_2">
+						<img
+							class="baner__img"
+							src="./images/icon-warning.svg"
+							alt="Иконка предупреждения, восклицательный знак в треугольнике."
+						/>
+						<p class="banner__text">
+							Если это действие было инициировано не Вами,
+							<br />
+							<a href="#" class="banner__link">срочно свяжитесь</a> с нами!
+						</p>
+					</div>
+				</main>
+
+				<footer class="footer">
+					<h3 class="footer__title">2022 © MultiKassa</h3>
+					<p class="footer__subtitle">Cryptocurrency exchange</p>
+					<div class="footer__icons">
+						<img class="footer__icon" src="./images/social/mail.svg" />
+						<img class="footer__icon" src="./images/social/tg.svg" />
+						<img class="footer__icon" src="./images/social/insta.svg" />
+						<img class="footer__icon" src="./images/social/youtube.svg" />
+						<img class="footer__icon" src="./images/social/tt.svg" />
+						<img class="footer__icon" src="./images/social/wt.svg" />
+						<img class="footer__icon" src="./images/social/vk.svg" />
+					</div>
+				</footer>
+			</section>
+
+			<section class="4">
+				<header class="header content-block">
+					<div>
+						<img
+							class="header__logo"
+							src="./images/logo.svg"
+							alt="Логотип Multi Cassa"
+						/>
+						<h1 class="header__title">
+							Владислав,
+							<br />
+							<span class="header__title-hello">добрый день!</span>
+						</h1>
+					</div>
+					<img
+						class="header__image"
+						src="./images/tiger.svg"
+						alt="Иллюстрация тигра"
+					/>
+				</header>
+
+				<main class="main">
+					<h2 class="main__title main__title-text main__title-text_left">
+						В личном кабинет были<br />
+						изменены следующие данные:
+					</h2>
+
+					<ul class="data content-block">
+						<li class="data__item">
+							<ul class="data__box data__gap_4">
+								<li>
+									<img class="data__icon" src="./images/data/user1.svg" />
+								</li>
+								<li>
+									<h3 class="data__title">Имя пользователя:</h3>
+								</li>
+							</ul>
+
+							<ul class="data__box data__gap_10 data__self">
+								<li class="data__name">Old name</li>
+								<li class="data__button-container">
+									<img class="data__button-icon" src="./images/change.svg" />
+								</li>
+								<li class="data__name">New name</li>
+							</ul>
+						</li>
+						<li class="data__item">
+							<ul class="data__box data__gap_4">
+								<li>
+									<img class="data__icon" src="./images/data/tel2.svg" />
+								</li>
+								<li>
+									<h3 class="data__title">Телефон:</h3>
+								</li>
+							</ul>
+
+							<ul class="data__box data__gap_10 data__self">
+								<li class="data__name">Old phone</li>
+								<li class="data__button-container">
+									<img class="data__button-icon" src="./images/change.svg" />
+								</li>
+								<li class="data__name">New phone</li>
+							</ul>
+						</li>
+						<li class="data__item">
+							<ul class="data__box data__gap_4">
+								<li>
+									<img class="data__icon" src="./images/data/tg3.svg" />
+								</li>
+								<li>
+									<h3 class="data__title">Telegram</h3>
+								</li>
+							</ul>
+
+							<ul class="data__box data__gap_10 data__self">
+								<li class="data__name">Old telegram</li>
+								<li class="data__button-container">
+									<img class="data__button-icon" src="./images/change.svg" />
+								</li>
+								<li class="data__name">New telegram</li>
+							</ul>
+						</li>
+						<li class="data__item">
+							<ul class="data__box data__gap_4">
+								<li>
+									<img class="data__icon" src="./images/data/key4.svg" />
+								</li>
+								<li>
+									<h3 class="data__title">Установлен новый пароль</h3>
+								</li>
+							</ul>
+
+							<ul class="data__box data__gap_10 data__self">
+								<li class="data__name data__name-key">*************</li>
+							</ul>
+						</li>
+					</ul>
+
+					<div class="banner banner_2">
+						<img
+							class="baner__img"
+							src="./images/icon-warning.svg"
+							alt="Иконка предупреждения, восклицательный знак в треугольнике."
+						/>
+						<p class="banner__text">
+							Если это действие было инициировано не Вами,
+							<br />
+							<a href="#" class="banner__link">срочно свяжитесь</a> с нами!
+						</p>
+					</div>
+				</main>
+
+				<footer class="footer">
+					<h3 class="footer__title">2022 © MultiKassa</h3>
+					<p class="footer__subtitle">Cryptocurrency exchange</p>
+					<div class="footer__icons">
+						<img class="footer__icon" src="./images/social/mail.svg" />
+						<img class="footer__icon" src="./images/social/tg.svg" />
+						<img class="footer__icon" src="./images/social/insta.svg" />
+						<img class="footer__icon" src="./images/social/youtube.svg" />
+						<img class="footer__icon" src="./images/social/tt.svg" />
+						<img class="footer__icon" src="./images/social/wt.svg" />
+						<img class="footer__icon" src="./images/social/vk.svg" />
+					</div>
+				</footer>
+			</section>
+
+			<section class="5">
+				<header class="header content-block">
+					<div>
+						<img
+							class="header__logo"
+							src="./images/logo.svg"
+							alt="Логотип Multi Cassa"
+						/>
+						<h1 class="header__title">
+							<span class="header__title-hello">Спасибо <br />за вопрос!</span>
+						</h1>
+					</div>
+					<img
+						class="header__image"
+						src="./images/tigerT.svg"
+						alt="Иллюстрация тигра"
+					/>
+				</header>
+
+				<main class="main">
+					<h2 class="main__title main__title-text main__title-text_left">
+						Мы получили Ваш вопрос и ответим
+						<br />на него в ближайшее время:
+					</h2>
+					<article class="main__block content-block main__block_2">
+						<img class="main__icon" src="./images/q.svg" alt="" />
+						<p class="main__block-text">
+							Далеко-далеко за словесными горами в стране гласных и согласных
+							живут рыбные тексты. Вдали от всех живут они в буквенных домах на
+							берегу Семантика большого языкового океана. Маленький ручеек Даль
+							журчит по всей стране и обеспечивает ее всеми необходимыми
+							правилами. Эта парадигматическая страна, в которой жаренные члены
+							предложения залетают прямо в рот.
+						</p>
+					</article>
+
+					<div class="banner banner_2">
+						<img
+							class="baner__img"
+							src="./images/icon-warning.svg"
+							alt="Иконка предупреждения, восклицательный знак в треугольнике."
+						/>
+						<p class="banner__text">
+							Если это действие было инициировано не Вами,
+							<br />
+							<a href="#" class="banner__link">срочно свяжитесь</a> с нами!
+						</p>
+					</div>
+				</main>
+
+				<footer class="footer">
+					<h3 class="footer__title">2022 © MultiKassa</h3>
+					<p class="footer__subtitle">Cryptocurrency exchange</p>
+					<div class="footer__icons">
+						<img class="footer__icon" src="./images/social/mail.svg" />
+						<img class="footer__icon" src="./images/social/tg.svg" />
+						<img class="footer__icon" src="./images/social/insta.svg" />
+						<img class="footer__icon" src="./images/social/youtube.svg" />
+						<img class="footer__icon" src="./images/social/tt.svg" />
+						<img class="footer__icon" src="./images/social/wt.svg" />
+						<img class="footer__icon" src="./images/social/vk.svg" />
+					</div>
+				</footer>
+			</section>
 		</div>
 	</body>
 </html>
